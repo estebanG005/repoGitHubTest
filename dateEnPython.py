@@ -1,7 +1,9 @@
-import datetime
-
-maintenant = datetime.datetime.now()
-print(maintenant)
-
-aujourdhui = datetime.date.today()
-print(aujourdhui)
+from datetime import datetime
+now = datetime.now()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
+print "Date : " + mm + "/" + dd + "/" + yyyy +"/"+" " +hour+" :"+mi+" :"+ss
